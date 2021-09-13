@@ -1,0 +1,9 @@
+<div class="card">
+    <a routerLink="{{film.id}}" routerLinkActive="active">
+        <img src="https://image.tmdb.org/t/p/w500{{film?.poster_path}}" />
+        <div class="title">
+            <p>{{film.title}}</p>
+            <p>{{film.vote_average}}/10</p>
+        </div>
+    </a>
+</div>
